@@ -1,11 +1,12 @@
 \documentclass{article}
+\usepackage{subcaption}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{listings}
 \usepackage{graphicx}
-\usepackage{subfig}
 \graphicspath{ {images/} }
-\usepackage{cite}
+
+
 
 \begin{document}
 
@@ -49,10 +50,24 @@ A continuación se describira detalladamente paso por paso como lograr completar
     \item Junte ambas tarjetas, y apoyelas sobre el centro de la hoja de manera vertical y recta, de modo que la parte mas corta de la tarjeta quede apoyada sobre la hoja, y los laterales de la tarjeta mirando a su cuerpo.
     \item Coloque la yema del dedo pulgar en el final del lateral de una de las dos tarjetas (si está usando la mano derecha, entonces la tarjeta de la derecha, y vicerversa), la yema del dedo indice en el centro de la parte superior de las dos tarjetas, y la yema del dedo anular en el final del lateral de la msima tarjeta que esta sosteniendo el dedo pulgar.
     \item  Lentamente sin mover el dedo indice, y de manera delicada, abrir un poco la tarjeta que está siendo sostenida por el dedo pulgar y anular, usando estos mismos dedos.
-    \item Si siente que ya están equilibradas, suelte la mano, si no, puede soltar los dedos pulgar y anular, y moverlas un poco desde arriba con el dedo indice para lograrlo. Por otra parte, si las tarjetas caen, regrese al paso 3 e intentelo de nuevo.
+    \item Si siente que las tarjetas ya están equilibradas, suelte la mano, si no, puede soltar los dedos pulgar y anular, y moverlas un poco desde arriba con el dedo indice para lograrlo. Por otra parte, si las tarjetas caen, regrese al paso 3 e intentelo de nuevo.
 \end{enumerate}
+\newpage
 
 \section{Inclusión de imágenes} \label{imagenes}
 
-
+\begin{figure}[h]
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth,height=3.5cm]{A}
+        \caption{Posición Inicial}
+        \label{fig:primera}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth,height=3.5cm]{B}
+        \caption{Posición Final}
+        \label{fig:segunda}
+    \end{subfigure}
+\end{figure}
 \end{document}
